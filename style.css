@@ -1,0 +1,107 @@
+body {
+    max-height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    color: white;
+    height: 10%;
+    display: inline;
+}
+
+.image1 {
+    background: url("D:\\0 BITS\\CS Self\\Web\\hackathon\\img\\damon-rice-LhHU43P6Zmc-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.darkSq {
+    width: 40%;
+    height: inherit;
+    opacity: 0.8;
+    background-color: black;
+    float: right;
+}
+
+.reliable {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    padding: 10%;
+    font-variant-caps: all-small-caps;
+    z-index: 1;
+
+}
+
+.motto {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    line-height: 0.5;
+    letter-spacing: 5;
+    word-spacing: 2.5;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0;
+    padding-left: 0;
+    object-position: right;
+    font-variant-caps: all-small-caps;
+    width: fit-content;
+    
+  }
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+li:hover {
+    transition: background 500ms ease-in-out;
+    background-color: yellow;
+    cursor: pointer;
+
+}
+
+a, title {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.book {
+    background-color: #4CAF50;
+    z-index: 1;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    border-width: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}  
+
+.book:hover {
+    cursor: pointer;
+    background-color: yellow;
+    color: black;
+    transition: background 500ms ease-in-out;
+    transition: color 500ms ease-in-out;
+
+}
+
+ 
