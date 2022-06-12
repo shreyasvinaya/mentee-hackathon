@@ -2,13 +2,73 @@ body {
     max-height: 100%;
     padding: 0;
     margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
-nav {
-    color: white;
-    height: 10%;
-    display: inline;
+.navbar.sticky-top {
+    top: -100px;
+    transition: .5s;
 }
+
+.navbar .navbar-brand,
+.navbar a.btn {
+    height: 80px
+}
+
+.navbar .navbar-nav .nav-link {
+    margin-right: 30px;
+    padding: 25px 0;
+    color: var(--dark);
+    font-weight: 500;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+.navbar .dropdown-toggle::after {
+    border: none;
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    vertical-align: middle;
+    margin-left: 8px;
+}
+
+@media (max-width: 991.98px) {
+    .navbar .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+
+    .navbar .navbar-nav {
+        border-top: 1px solid #EEEEEE;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        border: none;
+        margin-top: 0;
+        top: 150%;
+        opacity: 0;
+        visibility: hidden;
+        transition: .5s;
+    }
+
+    .navbar .nav-item:hover .dropdown-menu {
+        top: 100%;
+        visibility: visible;
+        transition: .5s;
+        opacity: 1;
+    }
+}
+
 
 .image1 {
     background: url("./img/damon-rice-LhHU43P6Zmc-unsplash.jpg");
@@ -44,11 +104,29 @@ nav {
     font-weight: 400;
     font-size: 25px;
     text-align: center;
-    width: 100%;
+    padding: 10%;
+    padding-top: 0%;
     z-index: 1;
-    line-height: 0.5;
-    letter-spacing: 5;
-    word-spacing: 2.5;
+}
+
+.avail {
+    color: greenyellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    padding: 0% 10%;
+    z-index: 1;
+}
+
+.notavail {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    padding: 0% 10%;
+    z-index: 1;
 }
 
 ul {
@@ -61,7 +139,7 @@ ul {
     object-position: right;
     font-variant-caps: all-small-caps;
     width: fit-content;
-    
+
   }
 
 li {
@@ -86,14 +164,14 @@ a, title {
     background-color: #4CAF50;
     z-index: 1;
     border-radius: 10px;
-    width: 150px;
+    width: 200px;
     height: 50px;
-    margin: 5px;
+    margin: 10px;
     border-width: 0px;
     color: white;
     font-size: 20px;
     font-weight: 400;
-}  
+}
 
 .book:hover {
     cursor: pointer;
@@ -103,5 +181,3 @@ a, title {
     transition: color 500ms ease-in-out;
 
 }
-
- 
