@@ -161,7 +161,7 @@ a, title {
 }
 
 .book {
-    background-color: #4CAF50;
+    background-color: #00c04b;
     z-index: 1;
     border-radius: 10px;
     width: 200px;
@@ -175,8 +175,8 @@ a, title {
 
 .book:hover {
     cursor: pointer;
-    background-color: yellow;
-    color: black;
+    background-color: #008631;
+    color: white;
     transition: background 500ms ease-in-out;
     transition: color 500ms ease-in-out;
 
