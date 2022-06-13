@@ -15,7 +15,7 @@ html {
 
 body {
 	font-family: Georgia,montserrat, arial, verdana;
-  
+  overflow-y: hidden; /* Hide vertical scrollbar */
 }
 /*nav {
     color: white;
