@@ -188,7 +188,7 @@ a, title {
     background:rgba(0,0,0,0.6);
     position:absolute;
     top:0;
-    display:flex;
+    display:inline;
     justify-content: center;
     align-items: center;
     display:none;
@@ -215,4 +215,3 @@ a, title {
     transform: rotate(45deg);
     cursor: pointer;
 }
-
