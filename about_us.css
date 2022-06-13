@@ -14,8 +14,8 @@ html{
 
 .main-fleet{
     padding: 3rem 7%;
-   
-   
+
+
 }
 .main-fleet h1{
     font-size: 38px;
@@ -168,7 +168,7 @@ html{
 }
 .ride_section{
     width: 100%;
-    float: left;   
+    float: left;
 }
 
 .ride_text{
@@ -226,7 +226,7 @@ html{
 }
 
 .book_bt a{ color:#fefefe; }
-.book_bt a:hover{     
+.book_bt a:hover{
    color: #fff;
    background: #000;
 
@@ -294,7 +294,9 @@ html{
 .footer_section_2 {
     width: 100%;
     float: left;
-    padding-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 50px;
 }
 
 .section_footer {
@@ -303,14 +305,15 @@ html{
     background-color: #292828;
     height: auto;
     padding-top: 30px;
-    padding-bottom: 30px;
-    margin-top: 90px;
+    padding-bottom: 40px;
+    margin-top: 0px;
 }
 
 .text{
     font-size: 12pt;
     color: #ebebeb;
     margin-left: 0px;
+    margin-bottom: 35px;
 }
 
 .copyright_section{
@@ -328,21 +331,3 @@ html{
     text-align: center;
     margin-left: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

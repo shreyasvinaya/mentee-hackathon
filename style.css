@@ -181,6 +181,7 @@ a, title {
     transition: color 500ms ease-in-out;
 
 }
+
 /*login popup-->*/
 .login-bg{
     width:100%;
@@ -188,7 +189,7 @@ a, title {
     background:rgba(0,0,0,0.6);
     position:absolute;
     top:0;
-    display:inline;
+    display:flex;
     justify-content: center;
     align-items: center;
     display:none;
