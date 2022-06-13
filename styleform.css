@@ -8,12 +8,13 @@ html {
 
 	/*background:
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));*/
-    background-image: url("./img/signupimg.jpg");
+    background-image: url("./img/new1.jpg");
+		opacity: 0.9;
     mv background-color: #cccccc;
 }
 
 body {
-	font-family: montserrat, arial, verdana;
+	font-family: Georgia,montserrat, arial, verdana;
   overflow-y: hidden; /* Hide vertical scrollbar */
     overflow-x: hidden;
 }
@@ -26,9 +27,9 @@ body {
 #msform {
 	width: 520px;
 	margin: 0px auto;
-	text-align:left;
+	text-align:;
 	position: relative;
-  left: 450px
+  left: 445px
 
 }
 #msform fieldset {
@@ -44,12 +45,16 @@ body {
 
 	position: relative;
 }
-#msform input, #msform textarea {
+#msform input {
 	padding: 13px;
 	border: 1px solid #ccc;
+	outline: 0;
+	border-width: 0 0 2px;
+	border color: blue
 	border-radius: 3px;
-	margin-bottom: 28px;
+	margin-bottom: 34px;
 	width: 100%;
+	float:left;
 	box-sizing: border-box;
 	font-family: montserrat;
 	color: #2C3E50;
@@ -57,23 +62,24 @@ body {
 }
 /*buttons*/
 #msform .action-button {
-	width: 100px;
+	width: 125px;
 	background: #27AE60;
-	font-weight: bold;
+	font-weight: bolder;
 	color: white;
 	border: 0 none;
-	border-radius: 20px;
+	border-radius: 25px;
 	cursor: pointer;
-	padding: 10px 5px;
-	margin: 20px 5px;
+	padding: 17px 5px;
+	margin: 10px 5px;
 }
 #msform .action-button:hover, #msform .action-button:focus {
 	box-shadow: 0 0 0 2px white, 0 0 0 3px #27AE60;
 }
 /*headings*/
 .fs-title {
-	font-size: 25px;
+	font-size: 28px;
 	text-transform: uppercase;
+	font-family: Georgia;
 	font-weight: bolder;
 	color: #2C3E50;
 	margin-bottom: 30px;
@@ -91,4 +97,16 @@ body {
 	color: #666;
 	text-align: left;
 	margin-bottom: 20px;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
