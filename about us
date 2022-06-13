@@ -1,0 +1,180 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="about us.css">
+   <!-- bootstrap css -->
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+   
+</head>
+<body>
+     <!-- why ride section start -->
+     <div id="booking" class="ride_section layout_padding">
+        <div class="container">
+          <div class="ride_main">
+            <h1 class="ride_text">Why Ride <span style="color: #f4db31;">With Taxiverse ?</span></h1>
+        </div>
+          </div>
+      </div>
+      <div class="ride_section_2 layout_padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="image_3"><img src="images/pocket1 .jpg"></div>
+            </div>
+            <div class="col-sm-8">
+              <h1 class="cabe_text">Cabs for Every Pocket</h1>
+              <p class="long_text">From Sedans and SUVs to Luxuary cars for special occasions, we have cabs to suit every pocket.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <h1 class="secure_text">Secure and Safer Rides</h1>
+              <p class="long_text_2">Verified drivers, an emergency alert button, and live ride tracking are some of the features that we have in place to ensure you have a safe travel experience.</p>
+              
+            </div>
+            <div class="col-sm-4">
+              <div class="image_3"><img src="images/Safe1.jpg"></div>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="image_3"><img src="images/carpool1.jpg"></div>
+            </div>
+            <div class="col-sm-8">
+              <h1 class="cabe_text">Share and Ride</h1>
+              <p class="long_text">To travel with the lowest fares choose taxiverse cabpool. FOr a faster travel experience we have cabpool on some fixed routes with zero deviations.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8">
+              <h1 class="secure_text">Taxiverse Membership</h1>
+              <p class="long_text_2">A membership program with ola that lets you ride at mini fares, book cabs wothout peaking prices.</p>
+              
+            </div>
+            <div class="col-sm-4">
+              <div class="image_3"><img src="images/membership1.jpg"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- why ride section end -->
+<!-- our fleet -->
+
+<div class="main-fleet">
+    <h1>our <span>Fleet</span></h1>
+    <div class="inner-fleet">
+        <div class="fleet-container">
+            <div class="inner-box">
+                <img src="images/image1.png" alt="">
+                <h2>luxuary class</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum officia fugiat, autem facere iste repellendus omnis nemo dolore</p>
+                <h3>estimated price: Rs 500</h3>
+                <a href="#">Book now</a>
+            </div>
+        </div>
+
+        <div class="fleet-container">
+            <div class="inner-box">
+                <img src="images/img-2.png" alt="">
+                <h2 class="heading-yellow">economy class</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum officia fugiat, autem facere iste repellendus omnis nemo dolore</p>
+                <h3 class="yellw-section">estimated price: Rs 200</h3>
+                <a href="#" class="btn-yellow">Book now</a>
+            </div>
+        </div>
+
+        <div class="fleet-container">
+            <div class="inner-box">
+                <img src="images/car.png" alt="">
+                <h2>Median class</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illum officia fugiat, autem facere iste repellendus omnis nemo dolore</p>
+                <h3>estimated price: Rs 300 </h3>
+                <a href="#">Book now</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- our fleet ended -->
+
+
+<div class="testimonials">
+    <h1 class="heading-test">testimonials</h1>
+    <div class="main-testimonials">
+        <div class="inner-test">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis fugit magnam esse, amet adipisci eaque dolore explicabo quidem laudantium ad, enim, obcaecati optio? Harum porro delectus accusamus assumenda ullam.</p>
+            <div class="clients">
+                <img src="images/Raju.png" alt="">
+                <h1>raju</h1>
+            </div>
+        </div>
+        <div class="inner-test">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe veritatis fugit magnam esse, amet adipisci eaque dolore explicabo quidem laudantium ad, enim, obcaecati optio? Harum porro delectus accusamus assumenda ullam.</p>
+            <div class="clients">
+                <img src="images/Tina1.jpg" alt="">
+                <h1>tina</h1>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- section footer start -->
+ <div class="section_footer ">
+    <div class="container"> 
+        <div class="footer_section_2">
+          <div class="row">
+              <div class="col">
+                <h2 class="account_text">Popular Places to Visit</h2>
+                <ul class="text">
+                    <li>Palolem Beach</li>
+                    <li>Panaji</li>
+                    <li>Agonda</li>
+                    <li>Fountains</li>
+                    <li>Mangeshi temple</li>
+
+
+                </ul>
+              </div>
+              <div class="col">
+                <h2 class="account_text">Links</h2>
+                <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#">Home</span></a></div>
+              <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#">About Us</span></a></div>
+              <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#">Fleet</span></a></div>
+              <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#">Booking</span></a></div>
+              <div class="image-icon"><img src="images/bulit-icon.png"><span class="fb_text"><a href="#">Contact Us</span></a></div>
+              </div>
+              <div class="col">
+              <h2 class="account_text">Follow Us</h2>
+              <div class="image-icon"><img src="images/fb-icon.png"><span class="fb_text"><a href="#">Facebook</a></span></div>
+              <div class="image-icon"><img src="images/twitter-icon.png"><span class="fb_text"><a href="#">Twitter</a></span></div>
+              <div class="image-icon"><img src="images/in-icon.png"><span class="fb_text"><a href="#">Linkedin</a></span></div>
+              <div class="image-icon"><img src="images/youtube-icon.png"><span class="fb_text"><a href="#">Youtube</a></span></div>            
+              <div class="image-icon"><img src="images/instagram-icon.png"><span class="fb_text"><a href="#">Instagram</a></span></div>
+              </div>
+     
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+  </div>
+<!-- section footer end -->
+<!-- copyright section start -->
+<div class="copyright_section">
+  <div class="container">
+    <p class="copyright">2022 All Rights Reserved.</p>
+  </div>
+</div>
+</body>
+</html>
