@@ -8,10 +8,11 @@ html {
 
 	/*background:
 		linear-gradient(rgba(196, 102, 0, 0.6), rgba(155, 89, 182, 0.6));*/
-    background-image: url("./img/new1.jpg");
+    background-image: url("./img/new3.jpg");
 		background-repeat:no-repeat;
-		max-width: 100%;
-		height:auto;
+		/*max-width: 100%;
+		height:auto;*/
+		background-size: cover;
 		opacity: 0.9;
     mv background-color: #cccccc;
 }
