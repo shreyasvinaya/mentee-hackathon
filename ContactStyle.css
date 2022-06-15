@@ -5,7 +5,8 @@
 
 html {
 	height: 100%;
-
+  overflow-x: hidden;
+	overflow-y: hidden;
 	background-image: url("./img/bgimg.jpg");
 	background-size: cover;
   background-color: #cccccc;
@@ -19,7 +20,7 @@ body {
 
 #msform {
 	width: 670px;
-	margin: 140px 349px;
+	margin: 9% 24%;
 	text-align: center;
 	position: relative;
 }

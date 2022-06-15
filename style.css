@@ -209,7 +209,13 @@ a, title {
 }
 .login-input{
     width:75%;
-    display:block;
+  
+    border: 1px solid #ccc;
+  	outline: 0;
+  	border-width: 0 0 2px;
+  	border color: blue;
+  	border-radius: 3px;
+    box-sizing: border-box;
     padding: 10px;
     margin: 15px auto;
 }
