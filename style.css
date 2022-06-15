@@ -196,14 +196,14 @@ a, title {
     text-align: -webkit-center;
 }
 .login-content{
-    width:700px;
+    width:50%;
     height:500px;
     /* background-color: yellow; */
-    background-image: url("./img/bny.jpg");
+    background-image: url("./img/taxi5.jpg");
     background-size: cover;
     border-radius: 20px;
     text-align:center;
-    padding:20px;
+    padding:5%;
     position: relative;
     top: 30%;
 }
