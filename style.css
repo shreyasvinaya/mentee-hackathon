@@ -193,19 +193,24 @@ a, title {
     justify-content: center;
     align-items: center;
     display:none;
+    text-align: -webkit-center;
 }
 .login-content{
-    width:500px;
-    height:300px;
-    background-color: white;
-    border-radius: 4px;
+    width:700px;
+    height:500px;
+    /* background-color: yellow; */
+    background-image: url("./img/bny.jpg");
+    background-size: cover;
+    border-radius: 20px;
     text-align:center;
     padding:20px;
     position: relative;
+    top: 30%;
 }
 .login-input{
-    width:50%;
+    width:75%;
     display:block;
+    padding: 10px;
     margin: 15px auto;
 }
 .close{

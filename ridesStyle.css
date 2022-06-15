@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'inter', sans-serif;
+}
+
+body{
+  background: #2A363B;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 550px;
+  height: 704px;
+  background: white;
+}
+
+nav{
+  height: 55px;
+  widtH: 100%;
+  margin-bottom: 45px;
+  background: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+nav{
+  display: flex;
+}
+
+nav .icon{
+  margin-right: 7px;
+  width: 24px;
+}
+
+.card img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.card{
+  padding: 0 40px;
+  display: flex;
+  gap: 19px;
+  margin-bottom: 36px;
+}
+
+.card .top{
+  display: flex;
+  gap: 12px;
+  margin-bottom: 7px;
+}
+
+.card .top .marker{
+  width: 20px;
+  height: 20px;
+  margin-right: -10px;
+}
+
+.card .top .map a{
+  color: #918E9B;
+}
+
+.card .top .name{
+  /* font-size:  */
+}
+
+.title{
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 14px;
+}
+.date{
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.description{
+  font-size: 10px;
+  line-height: 15px;
+  max-width: 326px;
+}
+

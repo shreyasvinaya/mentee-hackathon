@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="app.js"></script>
 </head>
 <body>
     <div class="main">
@@ -29,12 +29,11 @@
                       <div class="dropdown-menu bg-light m-0">
                           <a href="" class="dropdown-item">Log In</a>
                           <a href="" class="dropdown-item">Status</a>
-                          <a href="" class="dropdown-item"></a>
                           <a href="" class="dropdown-item">Review</a>
                           <a href="" class="dropdown-item">Contact us</a>
                       </div>
                   </div>
-                  <a href="ContactUs.html" class="nav-item nav-link">Contact</a>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
               </div>
               <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">Get Started<i class="fa fa-arrow-right ms-3"></i></a>
           </div>
@@ -55,21 +54,22 @@
               <div class="notavail" id="notavail">
               </div>
               <div style="width: 100%; text-align: center;">
-                  <button class="book" onclick="getLocation()" id="bookbutton"> Book Now </button>
+                  <button class="book" onclick="loginPopup()" id="bookbutton"> Book Now </button>
               </div>
           </div>
       </div>
     </div>
 
     <!--login popup-->
-    <div class="login-bg" >
+    <div class="login-bg" id="login">
         <div class="login-content">
-            <div class="close">+</div>
-            <h1 align="center" style="color:blueviolet; text-shadow: 2px 2px 2px #CCCCCC ;">LOGIN </h1>
+            <div class="close" onclick="closePopup()">+</div>
+            <h1 align="center" style="color:white; text-shadow: 2px 2px 2px #CCCCCC ;">LOGIN </h1>
             <form action="">
                 <input class="login-input" type="text" placeholder="Email">
                 <input class="login-input" type="password" placeholder="Password">
-                <button type="submit" class="book" >Get a ride!</button>
+                <a href="./rides.html"><button type="submit" class="book"> Get a ride!</button></a>
+                
             </form>
 
         </div>

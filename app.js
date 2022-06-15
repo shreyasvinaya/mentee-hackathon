@@ -33,3 +33,12 @@ function showError(error) {
       break;
   }
 }
+
+function loginPopup(){
+  document.getElementById("login").style.display = "block";
+}
+
+function closePopup(){
+  document.getElementById("login").style.display = "none";
+
+}
